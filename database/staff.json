@@ -1,0 +1,17 @@
+[
+    {
+        "id": 6327094778,
+        "name": "shahid",
+        "email": "shahid@gmail.com",
+        "password": "Shahid123",
+        "role": "Staff"
+    },
+    {
+        "id": 9437011712,
+        "name": "samir",
+        "email": "samir@gmail.com",
+        "password": "Samir123",
+        "role": "Staff"
+    }
+]
+

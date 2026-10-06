@@ -1,0 +1,47 @@
+[2026-10-02 11:57:09] View bills started.
+[2026-10-02 11:58:58] Bill generation started.
+[2026-10-02 11:59:19] Bill generated successfully. Bill ID: 20, Order ID: 2, Customer: shahid, Amount: ₹1.0, Payment: Cash
+[2026-10-02 11:59:58] View bills started.
+[2026-10-02 12:01:13] View bills started.
+[2026-10-02 12:01:13] Bills JSON file is invalid or not found.
+[2026-10-02 12:01:13] No bills found.
+[2026-10-02 12:01:55] Bill search started.
+[2026-10-02 12:01:55] Bills JSON file is invalid or not found.
+[2026-10-02 12:01:55] No bills available for search.
+[2026-10-02 12:02:07] View bills started.
+[2026-10-02 12:02:07] Bills JSON file is invalid or not found.
+[2026-10-02 12:02:07] No bills found.
+[2026-10-02 12:02:32] Bill generation started.
+[2026-10-02 12:02:43] Bills JSON file is invalid or not found.
+[2026-10-02 12:03:26] Bill generated successfully. Bill ID: 1, Order ID: 21, Customer: shahid, Amount: ₹7.5, Payment: UPI
+[2026-10-02 12:04:45] Bill generation started.
+[2026-10-02 12:04:57] Bill generated successfully. Bill ID: 2, Order ID: 2, Customer: shahid, Amount: ₹11.0, Payment: Cash
+[2026-10-02 12:05:53] View bills started.
+[2026-10-02 12:05:53] All bills viewed. Total bills: 2
+[2026-10-02 12:09:07] View bills started.
+[2026-10-02 12:09:07] All bills viewed. Total bills: 2
+[2026-10-02 12:09:22] Bill generation started.
+[2026-10-02 12:09:56] Bill generated successfully. Bill ID: 3, Order ID: 10, Customer: shahid, Amount: ₹200000.0, Payment: Cash
+[2026-10-02 12:10:18] Bill search started.
+[2026-10-02 12:10:24] Bill searched successfully. Bill ID: 3
+[2026-10-02 13:49:29] Bill generation started.
+[2026-10-02 13:49:56] Bill generated successfully. Bill ID: 4, Order ID: 11, Customer: shahid, Amount: ₹6.0, Payment: UPI
+[2026-10-02 13:50:30] All bills viewed. Total bills: 4
+[2026-10-02 13:51:24] Bill search started.
+[2026-10-02 13:51:28] Bill searched successfully. Bill ID: 2
+[2026-10-02 21:28:51] All bills viewed. Total bills: 4
+[2026-10-02 21:29:31] Bill generation started.
+[2026-10-02 21:29:40] Bill already exists for Order ID: 11
+[2026-10-02 21:29:48] Bill generation started.
+[2026-10-02 21:30:02] Bill generated successfully. Bill ID: 5, Order ID: 12, Customer: shahid, Amount: ₹11.0, Payment: Cash
+[2026-10-02 21:30:13] All bills viewed. Total bills: 5
+[2026-10-02 21:35:42] Bill search started.
+[2026-10-02 21:35:59] Bill searched successfully. Bill ID: 1
+[2026-10-05 12:46:16] Bill generation started.
+[2026-10-05 12:46:49] Bill already exists for Order ID: 2
+[2026-10-05 12:47:03] Bill generation started.
+[2026-10-05 12:47:20] Bill generated successfully. Bill ID: 6, Order ID: 29, Customer: shahid, Amount: ₹0.5, Payment: Cash
+[2026-10-05 12:47:39] All bills viewed. Total bills: 6
+[2026-10-05 14:36:59] All bills viewed. Total bills: 6
+[2026-10-06 10:41:45] Bill search started.
+[2026-10-06 10:41:48] Bill searched successfully. Bill ID: 1

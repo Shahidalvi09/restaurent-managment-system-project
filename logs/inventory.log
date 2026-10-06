@@ -1,0 +1,20 @@
+[2026-10-01 10:45:16] Stock added: ID=1, Amount=5.0
+[2026-10-01 11:06:02] Inventory value checked: ₹21050.00
+[2026-10-02 10:43:27] Inventory item added: ID=6, Name=rise
+[2026-10-02 10:44:22] Stock added: ID=1, Amount=10.0
+[2026-10-02 10:44:42] Stock added: ID=1, Amount=35.0
+[2026-10-02 10:45:17] Stock removed: ID=1, Amount=100.0
+[2026-10-02 10:45:50] Inventory value checked: ₹4650.00
+[2026-10-02 11:06:22] Inventory JSON file is corrupted.
+[2026-10-02 11:06:22] Inventory item added: ID=1, Name=oil
+[2026-10-02 11:07:13] Stock added: ID=1, Amount=15.0
+[2026-10-02 11:08:34] Inventory updated: ID=1
+[2026-10-02 11:09:10] Stock added: ID=1, Amount=5.0
+[2026-10-02 11:12:17] Inventory item added: ID=2, Name=rise
+[2026-10-02 11:12:45] Stock added: ID=2, Amount=5.0
+[2026-10-02 11:14:00] Stock added: ID=2, Amount=5.0
+[2026-10-02 11:14:26] Stock removed: ID=2, Amount=30.0
+[2026-10-02 11:14:49] Inventory value checked: ₹4000.00
+[2026-10-02 12:36:10] Inventory item added: ID=3, Name=shahid
+[2026-10-02 21:36:57] Inventory item deleted: ID=3
+[2026-10-02 21:37:19] Stock added: ID=2, Amount=50.0

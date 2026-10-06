@@ -1,0 +1,52 @@
+2026-10-02 15:15:22 - VIEW SUCCESS: Menu viewed successfully.
+2026-10-02 15:15:39 - VIEW SUCCESS: Menu viewed successfully.
+2026-10-02 15:18:20 - VIEW SUCCESS: Menu viewed successfully.
+2026-10-02 17:50:46 - VIEW SUCCESS: Menu viewed successfully.
+2026-10-02 17:51:02 - VIEW SUCCESS: Menu viewed successfully.
+2026-10-02 17:52:15 - Menu data saved successfully.
+2026-10-02 17:52:15 - ADD SUCCESS: ID=32, Name=momosh, Category=shahid
+2026-10-02 17:55:42 - VIEW SUCCESS: Menu viewed successfully.
+2026-10-02 20:54:20 - VIEW SUCCESS: Menu viewed successfully.
+2026-10-02 20:54:44 - VIEW SUCCESS: Menu viewed successfully.
+2026-10-02 20:55:47 - Menu data saved successfully.
+2026-10-02 20:55:47 - UPDATE SUCCESS: ID=1, Old Name=Royal Chicken Tikka, New Name=chichen tikka
+2026-10-02 20:58:58 - VIEW SUCCESS: Menu viewed.
+2026-10-02 20:59:00 - VIEW SUCCESS: Menu viewed.
+2026-10-02 21:00:16 - UPDATE SUCCESS: ID=1, Old Name=chichen tikka, New Name=chichen frai
+2026-10-02 21:01:20 - VIEW SUCCESS: Menu viewed.
+2026-10-02 21:01:26 - VIEW SUCCESS: Menu viewed.
+2026-10-02 21:01:55 - UPDATE SUCCESS: ID=1, Old Name=Royal Chicken Tikka, New Name=chiichen frai
+2026-10-02 21:02:16 - VIEW SUCCESS: Menu viewed.
+2026-10-02 21:02:33 - DELETE SUCCESS: ID=31, Name=changegy
+2026-10-02 21:02:36 - VIEW SUCCESS: Menu viewed.
+2026-10-02 21:29:17 - VIEW SUCCESS: Menu viewed.
+2026-10-04 22:11:56 - VIEW SUCCESS: Menu viewed.
+2026-10-05 10:52:46 - VIEW SUCCESS: Menu viewed.
+2026-10-05 10:56:59 - VIEW SUCCESS: Menu viewed.
+2026-10-05 11:00:43 - ADD SUCCESS: ID=41, Name=water
+2026-10-05 11:01:11 - VIEW SUCCESS: Menu viewed.
+2026-10-05 11:01:23 - DELETE SUCCESS: ID=40, Name=Sweet Lassi
+2026-10-05 11:01:28 - VIEW SUCCESS: Menu viewed.
+2026-10-05 11:02:28 - VIEW SUCCESS: Menu viewed.
+2026-10-05 11:08:57 - VIEW SUCCESS: Menu viewed.
+2026-10-05 11:09:21 - VIEW SUCCESS: Menu viewed.
+2026-10-05 14:32:12 - VIEW SUCCESS: Menu viewed.
+2026-10-05 14:35:22 - VIEW SUCCESS: Menu viewed.
+2026-10-05 23:36:43 - VIEW SUCCESS: All menu categories displayed.
+2026-10-05 23:38:12 - ERROR: Menu data must be a dictionary.
+2026-10-05 23:38:53 - ERROR: Menu data must be a dictionary.
+2026-10-05 23:39:11 - ERROR: Menu data must be a dictionary.
+2026-10-05 23:39:40 - ERROR: Menu data must be a dictionary.
+2026-10-05 23:40:04 - ERROR: Menu data must be a dictionary.
+2026-10-05 23:41:25 - ADD SUCCESS: ID=112, Name=rusk
+2026-10-05 23:41:31 - VIEW SUCCESS: All menu categories displayed.
+2026-10-05 23:43:09 - ADD SUCCESS: ID=113, Name=dal
+2026-10-05 23:43:16 - VIEW SUCCESS: All menu categories displayed.
+2026-10-05 23:44:33 - VIEW SUCCESS: All menu categories displayed.
+2026-10-05 23:44:50 - VIEW SUCCESS: All menu categories displayed.
+2026-10-05 23:45:24 - UPDATE SUCCESS: ID=113
+2026-10-05 23:45:28 - VIEW SUCCESS: All menu categories displayed.
+2026-10-05 23:45:45 - VIEW SUCCESS: All menu categories displayed.
+2026-10-05 23:45:57 - DELETE SUCCESS: ID=113
+2026-10-05 23:46:00 - VIEW SUCCESS: All menu categories displayed.
+2026-10-06 10:34:27 - VIEW SUCCESS: All menu categories displayed.
