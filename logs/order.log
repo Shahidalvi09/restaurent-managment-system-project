@@ -64,3 +64,26 @@
 2026-10-05 14:36:35 - VIEW ERROR: Invalid order data found.
 2026-10-05 14:36:35 - VIEW ORDERS SUCCESS: Orders viewed.
 2026-10-05 14:36:52 - MANAGE ORDERS: Returned to Admin Menu.
+2026-10-07 11:16:45 - CREATE ORDER: Order creation started.
+2026-10-07 11:16:45 - CREATE ORDER FAILED: Menu data is not a list.
+2026-10-07 11:16:53 - CREATE ORDER: Order creation started.
+2026-10-07 11:16:53 - CREATE ORDER FAILED: Menu data is not a list.
+2026-10-07 11:17:20 - VIEW ERROR: Invalid order data found.
+2026-10-07 11:17:20 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-07 11:17:24 - CREATE ORDER: Order creation started.
+2026-10-07 11:17:24 - CREATE ORDER FAILED: Menu data is not a list.
+2026-10-07 11:19:49 - CREATE ORDER: Order creation started.
+2026-10-07 11:19:49 - CREATE ORDER FAILED: Menu data is not a list.
+2026-10-07 11:26:38 - CREATE ORDER: Started.
+2026-10-07 11:27:07 - Order data saved successfully.
+2026-10-07 11:27:07 - CREATE ORDER SUCCESS: ID=31, Item=Badam Milk Special, Size=Half, Quantity=1, Total=70.0
+2026-10-07 11:30:44 - CREATE ORDER: Started.
+2026-10-07 11:32:26 - Order data saved successfully.
+2026-10-07 11:32:26 - CREATE ORDER SUCCESS: ID=32, Item=Badam Milk Special, Total=70.0
+2026-10-07 11:32:35 - VIEW ERROR: Invalid order data found.
+2026-10-07 11:32:35 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-07 11:33:07 - VIEW ERROR: Invalid order data found.
+2026-10-07 11:33:07 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-07 11:33:10 - MANAGE ORDERS: Returned to Admin Menu.
+2026-10-07 11:33:18 - VIEW ERROR: Invalid order data found.
+2026-10-07 11:33:18 - VIEW ORDERS SUCCESS: Orders viewed.

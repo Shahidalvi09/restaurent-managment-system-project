@@ -63,29 +63,40 @@ class Order:
             self.write_log(f"ERROR: Order data could not be saved. {error}")
             return False
 
+
     def create_order(self, menu):
         print("\n" + "=" * 100)
         print(" " * 42 + "CREATE ORDER")
         print("=" * 100)
-        self.write_log("CREATE ORDER: Order creation started.")
+
+        self.write_log("CREATE ORDER: Started.")
 
         if menu is None:
             print("\nMenu manager is not available.")
-            self.write_log("CREATE ORDER FAILED: Menu manager not available.")
             return
 
         try:
             menu.view_menu()
-            items = menu.read_data()
+            menu_data = menu.read_data()
         except Exception as error:
             print("\nUnable to load menu.")
-            self.write_log(f"CREATE ORDER FAILED: Menu loading error. {error}")
+            self.write_log(f"Menu loading error: {error}")
             return
 
-        if not isinstance(items, list):
-            print("\nInvalid menu data.")
-            self.write_log("CREATE ORDER FAILED: Menu data is not a list.")
-            return
+        items = []
+
+        if isinstance(menu_data, dict):
+            for category, category_items in menu_data.items():
+                if isinstance(category_items, list):
+                    for item in category_items:
+                        if isinstance(item, dict):
+                            items.append(item)
+
+        elif isinstance(menu_data, list):
+            items = [
+                item for item in menu_data
+                if isinstance(item, dict)
+            ]
 
         if not items:
             print("\nMenu is empty.")
@@ -96,152 +107,104 @@ class Order:
         try:
             item_id = int(input("\nEnter Menu Item ID: ").strip())
         except ValueError:
-            print("\nItem ID must be a valid number.")
-            self.write_log("CREATE ORDER FAILED: Invalid menu item ID.")
-            return
-
-        if item_id <= 0:
-            print("\nItem ID must be greater than 0.")
-            self.write_log("CREATE ORDER FAILED: Item ID less than or equal to 0.")
+            print("\nPlease enter a valid Item ID.")
             return
 
         selected_item = None
-        for item in items:
-            if not isinstance(item, dict):
-                continue
-            try:
-                current_id = int(item["id"])
-            except (KeyError, TypeError, ValueError):
-                self.write_log("WARNING: Invalid menu item ID found.")
-                continue
 
-            if current_id == item_id:
-                selected_item = item
-                break
+        for item in items:
+            try:
+                if int(item["id"]) == item_id:
+                    selected_item = item
+                    break
+            except (KeyError, TypeError, ValueError):
+                continue
 
         if selected_item is None:
             print("\nMenu item not found.")
-            self.write_log(f"CREATE ORDER FAILED: Item ID={item_id} not found.")
             return
 
-        item_name = str(selected_item.get("name", "")).strip()
-        if item_name == "":
-            print("\nSelected menu item has an invalid name.")
-            self.write_log(f"CREATE ORDER FAILED: Empty item name. ID={item_id}")
-            return
+        print("\nSelected Item:", selected_item["name"])
+        print("1. Half - ₹{:.2f}".format(
+            float(selected_item["half_price"])
+        ))
+        print("2. Full - ₹{:.2f}".format(
+            float(selected_item["full_price"])
+        ))
 
-        try:
-            half_price = float(selected_item["half_price"])
-        except (KeyError, TypeError, ValueError):
-            print("\nInvalid half price in menu.")
-            self.write_log(f"CREATE ORDER FAILED: Invalid half price. ID={item_id}")
-            return
-
-        if half_price <= 0:
-            print("\nHalf price must be greater than 0.")
-            self.write_log(f"CREATE ORDER FAILED: Invalid half price value. ID={item_id}")
-            return
-
-        try:
-            full_price = float(selected_item["full_price"])
-        except (KeyError, TypeError, ValueError):
-            print("\nInvalid full price in menu.")
-            self.write_log(f"CREATE ORDER FAILED: Invalid full price. ID={item_id}")
-            return
-
-        if full_price <= 0:
-            print("\nFull price must be greater than 0.")
-            self.write_log(f"CREATE ORDER FAILED: Invalid full price value. ID={item_id}")
-            return
-
-        print("\n1. Half")
-        print("2. Full")
         size_choice = input("Enter Size: ").strip()
 
         if size_choice == "1":
             size = "Half"
-            price = half_price
+            price = float(selected_item["half_price"])
         elif size_choice == "2":
             size = "Full"
-            price = full_price
+            price = float(selected_item["full_price"])
         else:
-            print("\nInvalid size.")
-            self.write_log(f"CREATE ORDER FAILED: Invalid size. ID={item_id}")
+            print("\nInvalid size choice.")
             return
 
         try:
             quantity = int(input("Enter Quantity: ").strip())
         except ValueError:
             print("\nQuantity must be a valid number.")
-            self.write_log(f"CREATE ORDER FAILED: Invalid quantity. ID={item_id}")
             return
 
-        if quantity <= 0:
-            print("\nQuantity must be greater than 0.")
-            self.write_log(f"CREATE ORDER FAILED: Invalid quantity. ID={item_id}")
+        if quantity <= 0 or quantity > 100:
+            print("\nQuantity must be between 1 and 100.")
             return
 
-        if quantity > 100:
-            print("\nQuantity cannot be greater than 100.")
-            self.write_log(f"CREATE ORDER FAILED: Quantity greater than 100. ID={item_id}")
-            return
-
-        total = price * quantity
-        if total <= 0:
-            print("\nInvalid order total.")
-            self.write_log(f"CREATE ORDER FAILED: Invalid total. ID={item_id}")
-            return
-
+        total = round(price * quantity, 2)
         orders = self.read_data()
-        if not isinstance(orders, list):
-            print("\nInvalid order data.")
-            self.write_log("CREATE ORDER FAILED: Orders data is invalid.")
-            return
 
         valid_ids = []
+
         for order in orders:
-            if not isinstance(order, dict):
-                continue
-            try:
-                valid_ids.append(int(order["id"]))
-            except (KeyError, ValueError, TypeError):
-                self.write_log("WARNING: Invalid order ID found.")
+            if isinstance(order, dict):
+                try:
+                    valid_ids.append(int(order["id"]))
+                except (KeyError, TypeError, ValueError):
+                    continue
 
         new_id = max(valid_ids) + 1 if valid_ids else 1
         current_date_time = self.get_date_time()
 
         new_order = {
             "id": new_id,
-            "item_name": item_name,
+            "item_name": selected_item["name"],
             "size": size,
             "price": round(price, 2),
             "quantity": quantity,
-            "total": round(total, 2),
+            "total": total,
             "status": "Pending",
             "created_at": current_date_time,
             "updated_at": current_date_time
         }
+
         orders.append(new_order)
 
         if not self.write_data(orders):
             print("\nOrder could not be saved.")
             return
 
+        print("\n" + "=" * 100)
+        print(" " * 40 + "ORDER CREATED SUCCESSFULLY")
+        print("=" * 100)
+        print(f"Order ID     : {new_id}")
+        print(f"Item Name    : {selected_item['name']}")
+        print(f"Size         : {size}")
+        print(f"Price        : ₹{price:.2f}")
+        print(f"Quantity     : {quantity}")
+        print(f"Total        : ₹{total:.2f}")
+        print("Status       : Pending")
+        print(f"Created At   : {current_date_time}")
+        print("=" * 100)
+
         self.write_log(
             f"CREATE ORDER SUCCESS: ID={new_id}, "
-            f"Item={item_name}, Size={size}, Quantity={quantity}, Total={total}"
+            f"Item={selected_item['name']}, "
+            f"Total={total}"
         )
-
-        print("\n" + "=" * 100)
-        print(" " * 39 + "ORDER CREATED")
-        print("=" * 100)
-        print(f"{'ORDER ID':<15}{'ITEM NAME':<25}{'SIZE':<12}{'PRICE':<15}{'QUANTITY':<12}{'TOTAL':<15}")
-        print("-" * 100)
-        print(f"{str(new_id):<15}{item_name:<25}{size:<12}₹{price:<14.2f}{quantity:<12}₹{total:<14.2f}")
-        print("-" * 100)
-        print("Status:", "Pending")
-        print("Created At:", current_date_time)
-        print("=" * 100)
 
     def view_orders(self):
         print("\n" + "=" * 125)

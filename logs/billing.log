@@ -45,3 +45,6 @@
 [2026-10-05 14:36:59] All bills viewed. Total bills: 6
 [2026-10-06 10:41:45] Bill search started.
 [2026-10-06 10:41:48] Bill searched successfully. Bill ID: 1
+[2026-10-07 11:33:18] Bill generation started.
+[2026-10-07 11:33:59] Bill generated successfully. Bill ID: 7, Order ID: 32, Customer: aryan, Amount: ₹66.5, Payment: UPI
+[2026-10-07 11:35:37] All bills viewed. Total bills: 7

@@ -12,13 +12,35 @@
     },
     {
         "id": 2,
-        "name": "rise",
-        "category": "grocrry",
+        "name": "rice",
+        "category": "grocery",
         "unit": "kg",
         "quantity": 50.0,
-        "minimum_stock": 10.0,
-        "price_per_unit": 150.0,
+        "minimum_stock": 40.0,
+        "price_per_unit": 100.0,
         "created_at": "2026-10-02 11:12:17",
-        "updated_at": "2026-10-02 21:37:19"
+        "updated_at": "2026-10-07 11:13:06"
+    },
+    {
+        "id": 3,
+        "name": "wheat flour",
+        "category": "grocery",
+        "unit": "kg",
+        "quantity": 25.0,
+        "minimum_stock": 20.0,
+        "price_per_unit": 50.0,
+        "created_at": "2026-10-07 11:08:44",
+        "updated_at": "2026-10-07 11:08:44"
+    },
+    {
+        "id": 4,
+        "name": "milk",
+        "category": "dairy",
+        "unit": "litre",
+        "quantity": 30.0,
+        "minimum_stock": 15.0,
+        "price_per_unit": 70.0,
+        "created_at": "2026-10-07 11:11:03",
+        "updated_at": "2026-10-07 11:14:11"
     }
 ]

@@ -82,5 +82,19 @@
         "final_amount": 0.5,
         "payment_method": "Cash",
         "status": "Paid"
+    },
+    {
+        "id": 7,
+        "order_id": 32,
+        "customer_name": "aryan",
+        "date": "2026-10-07 11:33:59",
+        "subtotal": 70.0,
+        "tax_percentage": 5,
+        "tax_amount": 3.5,
+        "discount_percentage": 10.0,
+        "discount_amount": 7.0,
+        "final_amount": 66.5,
+        "payment_method": "UPI",
+        "status": "Paid"
     }
 ]
