@@ -48,3 +48,6 @@
 [2026-10-07 11:33:18] Bill generation started.
 [2026-10-07 11:33:59] Bill generated successfully. Bill ID: 7, Order ID: 32, Customer: aryan, Amount: ₹66.5, Payment: UPI
 [2026-10-07 11:35:37] All bills viewed. Total bills: 7
+[2026-10-07 14:15:00] Bill generation started.
+[2026-10-07 14:15:37] Bill generated successfully. Bill ID: 8, Order ID: 33, Customer: shahid, Amount: ₹140.0, Payment: Cash
+[2026-10-07 14:17:10] All bills viewed. Total bills: 8

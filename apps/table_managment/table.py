@@ -22,6 +22,7 @@ class TableBooking:
         tables = []
 
         for i in range(1, 4):
+            
             tables.append({
                 "table_id": i,
                 "table_number": f"VIP-{i}",
@@ -344,6 +345,7 @@ class TableBooking:
         tables = self.read_data()
         if not tables:
             print("\nNo tables found.")
+            
             return
 
         self.view_tables()

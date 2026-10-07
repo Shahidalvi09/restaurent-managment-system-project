@@ -87,3 +87,25 @@
 2026-10-07 11:33:10 - MANAGE ORDERS: Returned to Admin Menu.
 2026-10-07 11:33:18 - VIEW ERROR: Invalid order data found.
 2026-10-07 11:33:18 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-07 13:55:47 - VIEW ERROR: Invalid order data found.
+2026-10-07 13:55:47 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-07 13:55:59 - MANAGE ORDERS: Returned to Admin Menu.
+2026-10-07 14:11:10 - CREATE ORDER: Started.
+2026-10-07 14:11:26 - Order data saved successfully.
+2026-10-07 14:11:26 - CREATE ORDER SUCCESS: ID=33, Item=Badam Milk Special, Total=140.0
+2026-10-07 14:12:08 - CREATE ORDER: Started.
+2026-10-07 14:12:21 - Order data saved successfully.
+2026-10-07 14:12:21 - CREATE ORDER SUCCESS: ID=34, Item=Black Coffee, Total=40.0
+2026-10-07 14:12:27 - CREATE ORDER: Started.
+2026-10-07 14:12:40 - Order data saved successfully.
+2026-10-07 14:12:40 - CREATE ORDER SUCCESS: ID=35, Item=Masala Tea Special, Total=15.0
+2026-10-07 14:15:00 - VIEW ERROR: Invalid order data found.
+2026-10-07 14:15:00 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-07 14:15:50 - VIEW ERROR: Invalid order data found.
+2026-10-07 14:15:50 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-07 14:21:17 - VIEW ERROR: Invalid order data found.
+2026-10-07 14:21:17 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-07 14:21:50 - MANAGE ORDERS: Returned to Admin Menu.
+2026-10-07 14:22:01 - MANAGE ORDERS: Returned to Admin Menu.
+2026-10-07 14:22:04 - VIEW ERROR: Invalid order data found.
+2026-10-07 14:22:04 - VIEW ORDERS SUCCESS: Orders viewed.
