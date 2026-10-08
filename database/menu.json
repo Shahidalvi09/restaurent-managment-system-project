@@ -1,0 +1,808 @@
+{
+    "Breakfast": [
+        {
+            "id": 1,
+            "name": "Poha",
+            "food_type": "veg",
+            "half_price": 40.0,
+            "full_price": 70.0
+        },
+        {
+            "id": 2,
+            "name": "Upma",
+            "food_type": "veg",
+            "half_price": 40.0,
+            "full_price": 80.0
+        },
+        {
+            "id": 3,
+            "name": "aloo paratha",
+            "food_type": "veg",
+            "half_price": 30.0,
+            "full_price": 60.0
+        },
+        {
+            "id": 4,
+            "name": "maggi masala",
+            "food_type": "veg",
+            "half_price": 30.0,
+            "full_price": 70.0
+        },
+        {
+            "id": 5,
+            "name": "kachori",
+            "food_type": "veg",
+            "half_price": 25.0,
+            "full_price": 50.0
+        },
+        {
+            "id": 6,
+            "name": "samosa",
+            "food_type": "veg",
+            "half_price": 12.0,
+            "full_price": 25.0
+        },
+        {
+            "id": 7,
+            "name": "puri sabzi",
+            "food_type": "veg",
+            "half_price": 20.0,
+            "full_price": 40.0
+        },
+        {
+            "id": 8,
+            "name": "plain paratha",
+            "food_type": "veg",
+            "half_price": 20.0,
+            "full_price": 40.0
+        },
+        {
+            "id": 9,
+            "name": "chicken biryani",
+            "food_type": "non veg",
+            "half_price": 140.0,
+            "full_price": 280.0
+        },
+        {
+            "id": 10,
+            "name": "gobi paratha",
+            "food_type": "veg",
+            "half_price": 40.0,
+            "full_price": 80.0
+        },
+        {
+            "id": 112,
+            "name": "rusk",
+            "food_type": "veg",
+            "half_price": 20.0,
+            "full_price": 30.0
+        }
+    ],
+    "Lunch": [
+        {
+            "id": 11,
+            "name": "Special veg Thali",
+            "food_type": "veg",
+            "half_price": 120.0,
+            "full_price": 220.0
+        },
+        {
+            "id": 12,
+            "name": "paneer Butter Masala + Naan",
+            "food_type": "veg",
+            "half_price": 130.0,
+            "full_price": 240.0
+        },
+        {
+            "id": 13,
+            "name": "Shahi paneer combo",
+            "food_type": "veg",
+            "half_price": 140.0,
+            "full_price": 260.0
+        },
+        {
+            "id": 14,
+            "name": "Butter Chicken combo",
+            "food_type": "non veg",
+            "half_price": 160.0,
+            "full_price": 300.0
+        },
+        {
+            "id": 15,
+            "name": "Kadai paneer",
+            "food_type": "veg",
+            "half_price": 135.0,
+            "full_price": 260.0
+        },
+        {
+            "id": 16,
+            "name": "Rajma chawal special",
+            "food_type": "veg",
+            "half_price": 90.0,
+            "full_price": 170.0
+        },
+        {
+            "id": 17,
+            "name": "Kadhi chawal special",
+            "food_type": "veg",
+            "half_price": 90.0,
+            "full_price": 170.0
+        },
+        {
+            "id": 18,
+            "name": "Malai kofta special",
+            "food_type": "veg",
+            "half_price": 140.0,
+            "full_price": 270.0
+        },
+        {
+            "id": 19,
+            "name": "Palak paneer combo",
+            "food_type": "veg",
+            "half_price": 130.0,
+            "full_price": 250.0
+        },
+        {
+            "id": 20,
+            "name": "Mix veg combo",
+            "food_type": "veg",
+            "half_price": 120.0,
+            "full_price": 230.0
+        }
+    ],
+    "Dinner": [
+        {
+            "id": 21,
+            "name": "Special Dinner Thali",
+            "food_type": "veg",
+            "half_price": 150.0,
+            "full_price": 280.0
+        },
+        {
+            "id": 22,
+            "name": "Paneer Lababdar + Naan",
+            "food_type": "veg",
+            "half_price": 140.0,
+            "full_price": 270.0
+        },
+        {
+            "id": 23,
+            "name": "Dal Makhani Combo",
+            "food_type": "veg",
+            "half_price": 130.0,
+            "full_price": 250.0
+        },
+        {
+            "id": 24,
+            "name": "Chicken Handi Special",
+            "food_type": "non veg",
+            "half_price": 180.0,
+            "full_price": 340.0
+        },
+        {
+            "id": 25,
+            "name": "Hyderabadi Chicken Biryani",
+            "food_type": "non veg",
+            "half_price": 170.0,
+            "full_price": 320.0
+        },
+        {
+            "id": 26,
+            "name": "Mutton Curry Combo",
+            "food_type": "non veg",
+            "half_price": 220.0,
+            "full_price": 420.0
+        },
+        {
+            "id": 27,
+            "name": "Kadai Paneer Special",
+            "food_type": "veg",
+            "half_price": 140.0,
+            "full_price": 270.0
+        },
+        {
+            "id": 28,
+            "name": "Tandoori Roti Combo",
+            "food_type": "veg",
+            "half_price": 100.0,
+            "full_price": 190.0
+        },
+        {
+            "id": 29,
+            "name": "Malai Kofta Dinner",
+            "food_type": "veg",
+            "half_price": 140.0,
+            "full_price": 270.0
+        },
+        {
+            "id": 30,
+            "name": "Family Veg Combo",
+            "food_type": "veg",
+            "half_price": 200.0,
+            "full_price": 380.0
+        }
+    ],
+    "Fast Food": [
+        {
+            "id": 31,
+            "name": "Cheese Burst Veg Burger",
+            "food_type": "veg",
+            "half_price": 70.0,
+            "full_price": 130.0
+        },
+        {
+            "id": 32,
+            "name": "Double Cheese Burger",
+            "food_type": "veg",
+            "half_price": 90.0,
+            "full_price": 170.0
+        },
+        {
+            "id": 33,
+            "name": "Chicken Crispy Burger",
+            "food_type": "non veg",
+            "half_price": 110.0,
+            "full_price": 210.0
+        },
+        {
+            "id": 34,
+            "name": "Loaded French Fries",
+            "food_type": "veg",
+            "half_price": 60.0,
+            "full_price": 120.0
+        },
+        {
+            "id": 35,
+            "name": "Peri Peri Fries",
+            "food_type": "veg",
+            "half_price": 70.0,
+            "full_price": 130.0
+        },
+        {
+            "id": 36,
+            "name": "Farmhouse Pizza Special",
+            "food_type": "veg",
+            "half_price": 150.0,
+            "full_price": 290.0
+        },
+        {
+            "id": 37,
+            "name": "Margherita Cheese Pizza",
+            "food_type": "veg",
+            "half_price": 130.0,
+            "full_price": 250.0
+        },
+        {
+            "id": 38,
+            "name": "Chicken Tikka Pizza",
+            "food_type": "non veg",
+            "half_price": 180.0,
+            "full_price": 350.0
+        },
+        {
+            "id": 39,
+            "name": "Veg Wrap Combo",
+            "food_type": "veg",
+            "half_price": 80.0,
+            "full_price": 150.0
+        },
+        {
+            "id": 40,
+            "name": "Chicken Wrap Combo",
+            "food_type": "non veg",
+            "half_price": 100.0,
+            "full_price": 190.0
+        }
+    ],
+    "Chinese": [
+        {
+            "id": 41,
+            "name": "Veg Hakka Noodles Special",
+            "food_type": "veg",
+            "half_price": 90.0,
+            "full_price": 170.0
+        },
+        {
+            "id": 42,
+            "name": "Schezwan Noodles Combo",
+            "food_type": "veg",
+            "half_price": 100.0,
+            "full_price": 190.0
+        },
+        {
+            "id": 43,
+            "name": "Veg Fried Rice Special",
+            "food_type": "veg",
+            "half_price": 100.0,
+            "full_price": 180.0
+        },
+        {
+            "id": 44,
+            "name": "Schezwan Fried Rice Combo",
+            "food_type": "veg",
+            "half_price": 110.0,
+            "full_price": 210.0
+        },
+        {
+            "id": 45,
+            "name": "Chilli Paneer Special",
+            "food_type": "veg",
+            "half_price": 140.0,
+            "full_price": 260.0
+        },
+        {
+            "id": 46,
+            "name": "Paneer Manchurian Combo",
+            "food_type": "veg",
+            "half_price": 130.0,
+            "full_price": 240.0
+        },
+        {
+            "id": 47,
+            "name": "Veg Spring Roll",
+            "food_type": "veg",
+            "half_price": 80.0,
+            "full_price": 150.0
+        },
+        {
+            "id": 48,
+            "name": "Chilli Chicken Special",
+            "food_type": "non veg",
+            "half_price": 170.0,
+            "full_price": 320.0
+        },
+        {
+            "id": 49,
+            "name": "Dragon Chicken Combo",
+            "food_type": "non veg",
+            "half_price": 190.0,
+            "full_price": 360.0
+        },
+        {
+            "id": 50,
+            "name": "Chinese Combo Meal",
+            "food_type": "veg",
+            "half_price": 180.0,
+            "full_price": 340.0
+        }
+    ],
+    "South Indian": [
+        {
+            "id": 51,
+            "name": "Plain Dosa Special",
+            "food_type": "veg",
+            "half_price": 70.0,
+            "full_price": 130.0
+        },
+        {
+            "id": 52,
+            "name": "Masala Dosa Combo",
+            "food_type": "veg",
+            "half_price": 90.0,
+            "full_price": 170.0
+        },
+        {
+            "id": 53,
+            "name": "Mysore Masala Dosa",
+            "food_type": "veg",
+            "half_price": 110.0,
+            "full_price": 210.0
+        },
+        {
+            "id": 54,
+            "name": "Cheese Dosa Special",
+            "food_type": "veg",
+            "half_price": 120.0,
+            "full_price": 230.0
+        },
+        {
+            "id": 55,
+            "name": "Onion Rava Dosa",
+            "food_type": "veg",
+            "half_price": 110.0,
+            "full_price": 210.0
+        },
+        {
+            "id": 56,
+            "name": "Idli Sambar Combo",
+            "food_type": "veg",
+            "half_price": 60.0,
+            "full_price": 120.0
+        },
+        {
+            "id": 57,
+            "name": "Medu Vada Special",
+            "food_type": "veg",
+            "half_price": 70.0,
+            "full_price": 130.0
+        },
+        {
+            "id": 58,
+            "name": "South Indian Mini Thali",
+            "food_type": "veg",
+            "half_price": 120.0,
+            "full_price": 230.0
+        },
+        {
+            "id": 59,
+            "name": "Uttapam Special",
+            "food_type": "veg",
+            "half_price": 90.0,
+            "full_price": 170.0
+        },
+        {
+            "id": 60,
+            "name": "Family Dosa Combo",
+            "food_type": "veg",
+            "half_price": 180.0,
+            "full_price": 340.0
+        }
+    ],
+    "Soft Drinks": [
+        {
+            "id": 61,
+            "name": "Coca Cola Chilled",
+            "food_type": "veg",
+            "half_price": 25.0,
+            "full_price": 50.0
+        },
+        {
+            "id": 62,
+            "name": "Pepsi Chilled",
+            "food_type": "veg",
+            "half_price": 25.0,
+            "full_price": 50.0
+        },
+        {
+            "id": 63,
+            "name": "Sprite Refresh",
+            "food_type": "veg",
+            "half_price": 25.0,
+            "full_price": 50.0
+        },
+        {
+            "id": 64,
+            "name": "Fanta Orange Blast",
+            "food_type": "veg",
+            "half_price": 25.0,
+            "full_price": 50.0
+        },
+        {
+            "id": 65,
+            "name": "Mountain Dew Energy",
+            "food_type": "veg",
+            "half_price": 30.0,
+            "full_price": 60.0
+        },
+        {
+            "id": 66,
+            "name": "7UP Lemon Fresh",
+            "food_type": "veg",
+            "half_price": 25.0,
+            "full_price": 50.0
+        },
+        {
+            "id": 67,
+            "name": "Limca Fresh Lime",
+            "food_type": "veg",
+            "half_price": 25.0,
+            "full_price": 50.0
+        },
+        {
+            "id": 68,
+            "name": "Thums Up Strong",
+            "food_type": "veg",
+            "half_price": 30.0,
+            "full_price": 60.0
+        },
+        {
+            "id": 69,
+            "name": "Mirinda Orange",
+            "food_type": "veg",
+            "half_price": 25.0,
+            "full_price": 50.0
+        },
+        {
+            "id": 70,
+            "name": "Appy Fizz Premium",
+            "food_type": "veg",
+            "half_price": 35.0,
+            "full_price": 70.0
+        }
+    ],
+    "Mocktails": [
+        {
+            "id": 71,
+            "name": "Virgin Mojito Special",
+            "food_type": "veg",
+            "half_price": 90.0,
+            "full_price": 180.0
+        },
+        {
+            "id": 72,
+            "name": "Blue Lagoon Premium",
+            "food_type": "veg",
+            "half_price": 100.0,
+            "full_price": 190.0
+        },
+        {
+            "id": 73,
+            "name": "Fruit Punch Deluxe",
+            "food_type": "veg",
+            "half_price": 110.0,
+            "full_price": 210.0
+        },
+        {
+            "id": 74,
+            "name": "Green Apple Mojito",
+            "food_type": "veg",
+            "half_price": 100.0,
+            "full_price": 200.0
+        },
+        {
+            "id": 75,
+            "name": "Watermelon Cooler",
+            "food_type": "veg",
+            "half_price": 90.0,
+            "full_price": 180.0
+        },
+        {
+            "id": 76,
+            "name": "Strawberry Delight",
+            "food_type": "veg",
+            "half_price": 110.0,
+            "full_price": 210.0
+        },
+        {
+            "id": 77,
+            "name": "Mint Lemon Cooler",
+            "food_type": "veg",
+            "half_price": 90.0,
+            "full_price": 170.0
+        },
+        {
+            "id": 78,
+            "name": "Orange Blast Special",
+            "food_type": "veg",
+            "half_price": 100.0,
+            "full_price": 190.0
+        },
+        {
+            "id": 79,
+            "name": "Kiwi Splash Premium",
+            "food_type": "veg",
+            "half_price": 120.0,
+            "full_price": 220.0
+        },
+        {
+            "id": 80,
+            "name": "Pineapple Punch Deluxe",
+            "food_type": "veg",
+            "half_price": 100.0,
+            "full_price": 190.0
+        }
+    ],
+    "Ice Cream": [
+        {
+            "id": 81,
+            "name": "Vanilla Ice Cream Cup",
+            "food_type": "veg",
+            "half_price": 40.0,
+            "full_price": 80.0
+        },
+        {
+            "id": 82,
+            "name": "Chocolate Ice Cream Cup",
+            "food_type": "veg",
+            "half_price": 50.0,
+            "full_price": 100.0
+        },
+        {
+            "id": 83,
+            "name": "Strawberry Ice Cream",
+            "food_type": "veg",
+            "half_price": 50.0,
+            "full_price": 100.0
+        },
+        {
+            "id": 84,
+            "name": "Butterscotch Delight",
+            "food_type": "veg",
+            "half_price": 60.0,
+            "full_price": 120.0
+        },
+        {
+            "id": 85,
+            "name": "Black Currant Special",
+            "food_type": "veg",
+            "half_price": 60.0,
+            "full_price": 120.0
+        },
+        {
+            "id": 86,
+            "name": "Mango Ice Cream",
+            "food_type": "veg",
+            "half_price": 50.0,
+            "full_price": 100.0
+        },
+        {
+            "id": 87,
+            "name": "Royal Kulfi",
+            "food_type": "veg",
+            "half_price": 40.0,
+            "full_price": 80.0
+        },
+        {
+            "id": 88,
+            "name": "Choco Chip Special",
+            "food_type": "veg",
+            "half_price": 60.0,
+            "full_price": 120.0
+        },
+        {
+            "id": 89,
+            "name": "American Nuts Deluxe",
+            "food_type": "veg",
+            "half_price": 70.0,
+            "full_price": 140.0
+        },
+        {
+            "id": 90,
+            "name": "Cassata Premium",
+            "food_type": "veg",
+            "half_price": 60.0,
+            "full_price": 120.0
+        }
+    ],
+    "Desserts": [
+        {
+            "id": 91,
+            "name": "Gulab Jamun Special",
+            "food_type": "veg",
+            "half_price": 40.0,
+            "full_price": 80.0
+        },
+        {
+            "id": 92,
+            "name": "Rasgulla Premium",
+            "food_type": "veg",
+            "half_price": 40.0,
+            "full_price": 80.0
+        },
+        {
+            "id": 93,
+            "name": "Rasmalai Royal",
+            "food_type": "veg",
+            "half_price": 60.0,
+            "full_price": 120.0
+        },
+        {
+            "id": 94,
+            "name": "Gajar Halwa Deluxe",
+            "food_type": "veg",
+            "half_price": 70.0,
+            "full_price": 140.0
+        },
+        {
+            "id": 95,
+            "name": "Moong Dal Halwa",
+            "food_type": "veg",
+            "half_price": 80.0,
+            "full_price": 160.0
+        },
+        {
+            "id": 96,
+            "name": "Jalebi Rabri Combo",
+            "food_type": "veg",
+            "half_price": 80.0,
+            "full_price": 150.0
+        },
+        {
+            "id": 97,
+            "name": "Rabri Special",
+            "food_type": "veg",
+            "half_price": 80.0,
+            "full_price": 150.0
+        },
+        {
+            "id": 98,
+            "name": "Kheer Delight",
+            "food_type": "veg",
+            "half_price": 50.0,
+            "full_price": 100.0
+        },
+        {
+            "id": 99,
+            "name": "Chocolate Brownie",
+            "food_type": "veg",
+            "half_price": 70.0,
+            "full_price": 140.0
+        },
+        {
+            "id": 100,
+            "name": "Chocolate Lava Cake",
+            "food_type": "veg",
+            "half_price": 90.0,
+            "full_price": 180.0
+        },
+        {
+            "id": 111,
+            "name": "puding",
+            "food_type": "veg",
+            "half_price": 60.0,
+            "full_price": 120.0
+        }
+    ],
+    "Beverages": [
+        {
+            "id": 101,
+            "name": "Masala Tea Special",
+            "food_type": "veg",
+            "half_price": 15.0,
+            "full_price": 30.0
+        },
+        {
+            "id": 102,
+            "name": "Green Tea Premium",
+            "food_type": "veg",
+            "half_price": 20.0,
+            "full_price": 40.0
+        },
+        {
+            "id": 103,
+            "name": "Black Coffee",
+            "food_type": "veg",
+            "half_price": 40.0,
+            "full_price": 80.0
+        },
+        {
+            "id": 104,
+            "name": "Cold Coffee Deluxe",
+            "food_type": "veg",
+            "half_price": 70.0,
+            "full_price": 140.0
+        },
+        {
+            "id": 105,
+            "name": "Cappuccino Premium",
+            "food_type": "veg",
+            "half_price": 80.0,
+            "full_price": 150.0
+        },
+        {
+            "id": 106,
+            "name": "Cafe Latte Special",
+            "food_type": "veg",
+            "half_price": 80.0,
+            "full_price": 150.0
+        },
+        {
+            "id": 107,
+            "name": "Hot Chocolate Deluxe",
+            "food_type": "veg",
+            "half_price": 90.0,
+            "full_price": 170.0
+        },
+        {
+            "id": 108,
+            "name": "Lemon Tea Fresh",
+            "food_type": "veg",
+            "half_price": 25.0,
+            "full_price": 50.0
+        },
+        {
+            "id": 109,
+            "name": "Oreo Milk Shake",
+            "food_type": "Veg",
+            "half_price": 70.0,
+            "full_price": 140.0
+        },
+        {
+            "id": 110,
+            "name": "Badam Milk Special",
+            "food_type": "veg",
+            "half_price": 70.0,
+            "full_price": 140.0
+        }
+    ]
+}

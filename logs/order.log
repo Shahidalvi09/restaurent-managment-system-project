@@ -1,0 +1,111 @@
+2026-10-02 15:18:20 - CREATE ORDER: Order creation started.
+2026-10-02 15:18:25 - Order data saved successfully.
+2026-10-02 15:18:25 - CREATE ORDER SUCCESS: ID=28, Item=Royal Chicken Tikka, Size=Half, Quantity=1, Total=450.0
+2026-10-02 21:14:44 - VIEW ERROR: Invalid order data found.
+2026-10-02 21:14:44 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-02 21:21:11 - VIEW ERROR: Invalid order data found.
+2026-10-02 21:21:11 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-02 21:23:57 - VIEW ERROR: Invalid order data found.
+2026-10-02 21:23:57 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-02 21:24:07 - VIEW ERROR: Invalid order data found.
+2026-10-02 21:24:07 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-02 21:24:10 - VIEW ERROR: Invalid order data found.
+2026-10-02 21:24:10 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-02 21:24:42 - Order data saved successfully.
+2026-10-02 21:24:42 - UPDATE STATUS SUCCESS: ID=28, Old Status=Pending, New Status=Ready
+2026-10-02 21:24:45 - VIEW ERROR: Invalid order data found.
+2026-10-02 21:24:45 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-02 21:24:54 - VIEW ERROR: Invalid order data found.
+2026-10-02 21:24:54 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-02 21:25:10 - Order data saved successfully.
+2026-10-02 21:25:10 - DELETE ORDER SUCCESS: ID=28
+2026-10-02 21:25:18 - VIEW ERROR: Invalid order data found.
+2026-10-02 21:25:18 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-02 21:28:44 - MANAGE ORDERS: Returned to Admin Menu.
+2026-10-02 21:29:17 - CREATE ORDER: Order creation started.
+2026-10-02 21:29:26 - Order data saved successfully.
+2026-10-02 21:29:26 - CREATE ORDER SUCCESS: ID=28, Item=Special Dry Fruit Lassi, Size=Half, Quantity=1, Total=250.0
+2026-10-02 21:29:31 - VIEW ERROR: Invalid order data found.
+2026-10-02 21:29:31 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-02 21:29:48 - VIEW ERROR: Invalid order data found.
+2026-10-02 21:29:48 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-05 11:08:57 - CREATE ORDER: Order creation started.
+2026-10-05 11:09:13 - CREATE ORDER FAILED: Invalid quantity. ID=41
+2026-10-05 11:09:21 - CREATE ORDER: Order creation started.
+2026-10-05 11:09:28 - Order data saved successfully.
+2026-10-05 11:09:28 - CREATE ORDER SUCCESS: ID=29, Item=water, Size=Half, Quantity=1, Total=10.0
+2026-10-05 12:44:34 - VIEW ERROR: Invalid order data found.
+2026-10-05 12:44:34 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-05 12:45:27 - VIEW ERROR: Invalid order data found.
+2026-10-05 12:45:27 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-05 12:45:31 - VIEW ERROR: Invalid order data found.
+2026-10-05 12:45:31 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-05 12:45:56 - Order data saved successfully.
+2026-10-05 12:45:56 - UPDATE STATUS SUCCESS: ID=29, Old Status=Pending, New Status=Completed
+2026-10-05 12:46:04 - VIEW ERROR: Invalid order data found.
+2026-10-05 12:46:04 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-05 12:46:09 - MANAGE ORDERS: Returned to Admin Menu.
+2026-10-05 12:46:16 - VIEW ERROR: Invalid order data found.
+2026-10-05 12:46:16 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-05 12:47:03 - VIEW ERROR: Invalid order data found.
+2026-10-05 12:47:03 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-05 14:32:50 - VIEW ERROR: Invalid order data found.
+2026-10-05 14:32:50 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-05 14:33:34 - VIEW ERROR: Invalid order data found.
+2026-10-05 14:33:34 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-05 14:33:45 - Order data saved successfully.
+2026-10-05 14:33:45 - UPDATE STATUS SUCCESS: ID=2, Old Status=Pending, New Status=Completed
+2026-10-05 14:33:48 - VIEW ERROR: Invalid order data found.
+2026-10-05 14:33:48 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-05 14:34:00 - MANAGE ORDERS: Returned to Admin Menu.
+2026-10-05 14:35:22 - CREATE ORDER: Order creation started.
+2026-10-05 14:35:41 - Order data saved successfully.
+2026-10-05 14:35:41 - CREATE ORDER SUCCESS: ID=30, Item=Dal Tadka, Size=Full, Quantity=1, Total=160.0
+2026-10-05 14:36:35 - VIEW ERROR: Invalid order data found.
+2026-10-05 14:36:35 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-05 14:36:52 - MANAGE ORDERS: Returned to Admin Menu.
+2026-10-07 11:16:45 - CREATE ORDER: Order creation started.
+2026-10-07 11:16:45 - CREATE ORDER FAILED: Menu data is not a list.
+2026-10-07 11:16:53 - CREATE ORDER: Order creation started.
+2026-10-07 11:16:53 - CREATE ORDER FAILED: Menu data is not a list.
+2026-10-07 11:17:20 - VIEW ERROR: Invalid order data found.
+2026-10-07 11:17:20 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-07 11:17:24 - CREATE ORDER: Order creation started.
+2026-10-07 11:17:24 - CREATE ORDER FAILED: Menu data is not a list.
+2026-10-07 11:19:49 - CREATE ORDER: Order creation started.
+2026-10-07 11:19:49 - CREATE ORDER FAILED: Menu data is not a list.
+2026-10-07 11:26:38 - CREATE ORDER: Started.
+2026-10-07 11:27:07 - Order data saved successfully.
+2026-10-07 11:27:07 - CREATE ORDER SUCCESS: ID=31, Item=Badam Milk Special, Size=Half, Quantity=1, Total=70.0
+2026-10-07 11:30:44 - CREATE ORDER: Started.
+2026-10-07 11:32:26 - Order data saved successfully.
+2026-10-07 11:32:26 - CREATE ORDER SUCCESS: ID=32, Item=Badam Milk Special, Total=70.0
+2026-10-07 11:32:35 - VIEW ERROR: Invalid order data found.
+2026-10-07 11:32:35 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-07 11:33:07 - VIEW ERROR: Invalid order data found.
+2026-10-07 11:33:07 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-07 11:33:10 - MANAGE ORDERS: Returned to Admin Menu.
+2026-10-07 11:33:18 - VIEW ERROR: Invalid order data found.
+2026-10-07 11:33:18 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-07 13:55:47 - VIEW ERROR: Invalid order data found.
+2026-10-07 13:55:47 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-07 13:55:59 - MANAGE ORDERS: Returned to Admin Menu.
+2026-10-07 14:11:10 - CREATE ORDER: Started.
+2026-10-07 14:11:26 - Order data saved successfully.
+2026-10-07 14:11:26 - CREATE ORDER SUCCESS: ID=33, Item=Badam Milk Special, Total=140.0
+2026-10-07 14:12:08 - CREATE ORDER: Started.
+2026-10-07 14:12:21 - Order data saved successfully.
+2026-10-07 14:12:21 - CREATE ORDER SUCCESS: ID=34, Item=Black Coffee, Total=40.0
+2026-10-07 14:12:27 - CREATE ORDER: Started.
+2026-10-07 14:12:40 - Order data saved successfully.
+2026-10-07 14:12:40 - CREATE ORDER SUCCESS: ID=35, Item=Masala Tea Special, Total=15.0
+2026-10-07 14:15:00 - VIEW ERROR: Invalid order data found.
+2026-10-07 14:15:00 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-07 14:15:50 - VIEW ERROR: Invalid order data found.
+2026-10-07 14:15:50 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-07 14:21:17 - VIEW ERROR: Invalid order data found.
+2026-10-07 14:21:17 - VIEW ORDERS SUCCESS: Orders viewed.
+2026-10-07 14:21:50 - MANAGE ORDERS: Returned to Admin Menu.
+2026-10-07 14:22:01 - MANAGE ORDERS: Returned to Admin Menu.
+2026-10-07 14:22:04 - VIEW ERROR: Invalid order data found.
+2026-10-07 14:22:04 - VIEW ORDERS SUCCESS: Orders viewed.

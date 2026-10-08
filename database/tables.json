@@ -1,0 +1,62 @@
+[
+    {
+        "table_id": 1,
+        "table_number": "VIP-1",
+        "category": "VIP",
+        "capacity": 8,
+        "status": "Booked",
+        "customer_name": "shahid",
+        "customer_phone": "1234567890",
+        "date": "2026-10-6",
+        "time": "10:00",
+        "booked_at": "2026-10-05 12:32:58"
+    },
+    {
+        "table_id": 2,
+        "table_number": "MED-1",
+        "category": "Medium",
+        "capacity": 6,
+        "status": "Booked",
+        "customer_name": "shahid",
+        "customer_phone": "1212121212",
+        "date": "2026-10-8",
+        "time": "1:00",
+        "booked_at": "2026-10-07 14:13:38"
+    },
+    {
+        "table_id": 3,
+        "table_number": "SML-1",
+        "category": "Small",
+        "capacity": 4,
+        "status": "Booked",
+        "customer_name": "danish",
+        "customer_phone": "1111111111",
+        "date": "2026-10-9",
+        "time": "2:00",
+        "booked_at": "2026-10-07 14:14:15"
+    },
+    {
+        "table_id": 4,
+        "table_number": "VIP-2",
+        "category": "VIP",
+        "capacity": 8,
+        "status": "Booked",
+        "customer_name": "aman",
+        "customer_phone": "1234567890",
+        "date": "2026-10-9",
+        "time": "1:00",
+        "booked_at": "2026-10-07 14:14:45"
+    },
+    {
+        "table_id": 5,
+        "table_number": "VIP-3",
+        "category": "VIP",
+        "capacity": 7,
+        "status": "Available",
+        "customer_name": "",
+        "customer_phone": "",
+        "date": "",
+        "time": "",
+        "booked_at": ""
+    }
+]
